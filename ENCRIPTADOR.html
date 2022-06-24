@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="encriptador.js"></script>
+        <title>ENCRIPTADOR ALURA</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+               <img class="logo-img" src="imagenes/Logo.png" >
+               <h1 class="tittle">ENCRIPTADOR DE MENSAJES </h1>
+            </div>
+            <main>
+                <div class="left">
+                    <input type="text" name="texto" class="text-input" id="input-texto" placeholder= "Ingrese el texto aqui">
+                </div>
+            </main>
+            <div class="right">
+                <img src="imagenes/Muñeco (1).png" id="imagen-munieco">
+                    <h1 id="texto">NINGUN MENSAJE FUE ENCONTRADO</h1>
+                        <textarea  name="name" id="texto2" cols="10" rows="5">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                            <button  type="button" name="button" id="copiar" onclick="copiar()">¡copiar!</button>
+
+            </div>
+            <div class="left-button">
+                <img src="imagenes/Vector (1).png" id="imagen-vector"  ><p>Solo minusculas y sin acentos</p>
+                
+                <button type="button" id="boton-encriptar" onclick=encriptar()>ENCRIPTAR</button>
+                <button type="button" id="boton-desencriptar" onclick=desencriptar()>DESENCRIPTAR</button>
+            </div>
+            
+        </div>
+
+        
+    </body>
+    <footer>
+        <div class="desarrollo">Desarrollado por Analia Itati Rusconi</div>
+    </footer>
+    
+        
+    
+</html>
